@@ -1,6 +1,7 @@
 import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import Counter from './Counter.jsx'
 
 
 const ManualComponent =function(){
@@ -9,6 +10,6 @@ const ManualComponent =function(){
 
 createRoot(document.getElementById('root')).render(
   
-    <ManualComponent/>
+    <Counter/>
   
 )
