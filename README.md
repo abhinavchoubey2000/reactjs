@@ -82,5 +82,17 @@ const element = React.createElement('div', {
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(element)
+
+// OR
+
+const Element = function(){
+    return React.createElement('div', {
+    style:"background-color:orange",
+    id:"custom-react-div"
+}, "This is a custom React component");
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<Element/>)
 ```
 ---
