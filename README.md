@@ -96,3 +96,18 @@ const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(<Element/>)
 ```
 ---
+
+## 4. Key points to remember while using JS in HTML
+
+- #### use *{ }* to write or insert JS variable or expression inside HTML.
+- #### you can only add expressions or variables which are already evaluated
+    - Example:
+        ```javascript
+        {if(true) username} // wrong
+        {username?username:null} // right
+        ```
+- #### Evaluated expression means final outcome.
+- #### Because every component gets converted into the object under the hood, thats why we can use if else, for loop etc in an object.        
+
+## 5. States
+#### To propagate the changes in UI we use states. When an state changes then the virtual DOM get reloaded and changes the state which reflected in UI.
