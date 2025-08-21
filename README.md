@@ -107,7 +107,9 @@ root.render(<Element/>)
         {username?username:null} // right
         ```
 - #### Evaluated expression means final outcome.
-- #### Because every component gets converted into the object under the hood, thats why we can use if else, for loop etc in an object.        
+- #### Because every component gets converted into the object under the hood, thats why we can use if else, for loop etc in an object.      
+
+---
 
 ## 5. States
 #### To propagate the changes in UI we use states. When an state changes then the virtual DOM get reloaded and changes the state which reflected in UI.
