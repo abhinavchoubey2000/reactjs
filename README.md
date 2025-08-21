@@ -109,13 +109,6 @@ root.render(<Element/>)
 - #### Evaluated expression means final outcome.
 - #### Because every component gets converted into the object under the hood, thats why we can use if else, for loop etc in an object.      
 
-[^1]: This is a Footnode
-Term
-: Defination
-[x]: Incomplete
-[ ]: Complete
-> This is a quote
->> Hidad 
 ---
 
 ## 5. States
